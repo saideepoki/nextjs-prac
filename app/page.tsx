@@ -35,6 +35,7 @@ export default function Page() {
           height = {1200}
           width = {600}
           className='hidden md:block'
+          alt = 'Desktop Image'
           />
 
          <Image
@@ -42,6 +43,7 @@ export default function Page() {
           height = {560}
           width = {400}
           className='block md:hidden'
+          alt = 'mobile image'
           />
         </div>
       </div>
